@@ -1,4 +1,6 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
+import './Nav.css'
 
 const Nav = () => {
 
@@ -14,22 +16,22 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
+              <Link className="nav-link" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/resume">Resume</a>
+              <NavLink className="nav-link" to="/resume">Resume</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/projects">Projects</a>
+              <NavLink className="nav-link" to="/projects">Projects</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/about">About</a>
+              <NavLink className="nav-link" to="/about">About</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/blog">Blog</a>
+              <NavLink className="nav-link" to="/blog">Blog</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contact">Contact</a>
+              <NavLink className="nav-link" to="/contact">Contact</NavLink>
             </li>
           </ul>
 

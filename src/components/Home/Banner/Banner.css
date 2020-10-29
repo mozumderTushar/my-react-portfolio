@@ -69,8 +69,10 @@
   .btn:hover{
     background: #fff;
     color: #ff4a57;
-    border: 2px solid transparent;
-    
+    border: 2px solid transparent; 
   }
+  svg.headerIcon {
+    color: aliceblue;
+}
  
   

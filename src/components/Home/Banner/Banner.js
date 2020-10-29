@@ -6,7 +6,11 @@ import {
   FaPinterest,
   FaInstagram,
   FaPlay,
+  FaGithub,
+  FaLinkedin,
+  FaLinkedinIn,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Banner = () => {
   const [state] = React.useState({
     title: "I am Mayen Uddin Mozumder",
@@ -24,16 +28,24 @@ const Banner = () => {
               <div className="header__section">
                 <ul className="header__ul">
                   <li>
-                    <FaFacebookF className="headerIcon" />
+                    <a href="https://web.facebook.com/profile.php?id=100009477859668">
+                      <FaFacebookF className="headerIcon" />
+                    </a>
                   </li>
                   <li>
-                    <FaTwitter className="headerIcon" />
+                    <a href="https://twitter.com/MozumderTushar1">
+                      <FaTwitter className="headerIcon" />
+                    </a>
                   </li>
                   <li>
-                    <FaPinterest className="headerIcon" />
+                    <a href="https://github.com/mozumderTushar">
+                      <FaGithub className="headerIcon" />
+                    </a>
                   </li>
                   <li>
-                    <FaInstagram className="headerIcon" />
+                    <a href="https://www.linkedin.com/in/mayen-uddin-mozumder-a6659b1b1/">
+                      <FaLinkedinIn className="headerIcon" />
+                    </a>
                   </li>
                 </ul>
                 <h1>{state.title}</h1>
