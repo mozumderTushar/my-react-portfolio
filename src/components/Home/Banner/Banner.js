@@ -1,19 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import './Banner.css'
 import myResume from "../../../../src/resume/Resume_of_Tushar.pdf"
+import Typical from 'react-typical'
 import {
   FaFacebookF,
   FaTwitter,
-  FaPinterest,
-  FaInstagram,
-  FaPlay,
   FaGithub,
   FaLinkedin,
   FaLinkedinIn,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
 const Banner = () => {
-  const [state] = React.useState({
+
+  const [state] = useState({
     title: "I am Mayen Uddin Mozumder",
     text:
       "I'm professional web developer with long time \
@@ -49,7 +49,11 @@ const Banner = () => {
                     </a>
                   </li>
                 </ul>
-                <h1>{state.title}</h1>
+                <Typical
+                  steps={['I am ', 1000, 'Mayen Uddin Mozumder', 100]}
+                  loop={Infinity}
+                  wrapper="h1"
+                />
                 <p>{state.text}</p>
                 <div className="header__buttons">
                   <Link to={myResume} className="btn btn-outline" target="_blank" download>My Resume</Link>

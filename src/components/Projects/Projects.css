@@ -37,3 +37,7 @@
       padding-top: 60px;
       padding-bottom: 30px;
   }
+  .MuiChip-root:hover{
+    background-color:#ff4a57
+  }
+  

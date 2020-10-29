@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './Services.css'
 import GitHubIcon from "@material-ui/icons/GitHub";
 import VisibilityIcon from "@material-ui/icons/Visibility";
@@ -10,10 +10,17 @@ import {
   FaFileAudio,
   FaHamburger,
 } from "react-icons/fa";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 
 const Services = () => {
-  const [header] = React.useState({
+
+  useEffect(() => {
+    Aos.init({ duration: 2000})
+},[])
+
+  const [header] = useState({
     mainHeader: "PROJECTS",
     subHeading: "My Projects",
     text:
@@ -79,14 +86,14 @@ const Services = () => {
     <div className="services">
       <div className="container">
         <div className="services__header">
-          <div className="common">
+          <div className="common" data-aos="zoom-in">
             <h3 className="heading">{header.mainHeader}</h3>
             <h1 className="mainHeader">{header.subHeading}</h1>
             <p className="mainContent">{header.text}</p>
             <div className="commonBorder"></div>
           </div>
 
-          <div className="row bgMain">
+          <div className="row bgMain"  data-aos="zoom-in">
             {state.map((info) => (
               <div className="col-md-4 bgMain text-center">
                 <div className="services__box">

@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Nav from '../Home/Nav/Nav';
 import './About.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const About = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+      }, [])
+    
     return (
         <div className="bgMain" style={{ height: '100vh' }} >
             <Nav />
-            <div className="container my-5" >
+            <div className="container my-5" data-aos="zoom-in">
                 <div className="row mt-5">
                     <div className="col-md-4">
                         <img src="https://i.ibb.co/BzzSg21/man-01.png" className='img-fluid' alt="" />

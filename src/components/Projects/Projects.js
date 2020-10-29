@@ -1,11 +1,18 @@
 import { Chip } from '@material-ui/core';
 import GitHubIcon from "@material-ui/icons/GitHub";
 import VisibilityIcon from "@material-ui/icons/Visibility";
-import React from 'react';
+import React, { useEffect } from 'react';
 import Nav from '../Home/Nav/Nav';
 import './Projects.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Projects = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 2000})
+    },[])
+
     return (
         <div className="bgMain text-white" >
             <Nav/>
@@ -21,7 +28,7 @@ const Projects = () => {
                             <img src='https://i.ibb.co/swLjRx8/1-Landing-page.png' className="img-fluid" alt="" />
                         </a>
                     </div>
-                    <div>
+                    <div data-aos="fade-down-right">
                         <h5>Featured Project</h5>
                         <h2 style={{ color: "rgb(255, 90, 95)" }}>Creative Agency</h2>
                         <div>
@@ -51,8 +58,8 @@ const Projects = () => {
                 </div>
 
                 {/* second project */}
-                <div className="work__project">
-                    <div data-aos="zoom-in">
+                <div className="work__project" data-aos="fade-up">
+                    <div >
                         <a href="https://doctors-portal-2ba18.web.app/" className="link">
                             <img src='https://i.ibb.co/qC1sGfg/doctor-56b2f293.png' className="img-fluid" alt="" />
                         </a>
@@ -87,13 +94,13 @@ const Projects = () => {
                 </div>
 
                 {/* third project */}
-                <div className="work__project">
-                    <div data-aos="zoom-in">
+                <div className="work__project" >
+                    <div data-aos="fade-up-right">
                         <a href="https://volunteer-network-ccdb0.web.app/" className="link">
                             <img src='https://i.ibb.co/1Ky0F1Z/1-Landing-page.png' className="img-fluid" alt="" />
                         </a>
                     </div>
-                    <div>
+                    <div  data-aos="fade-up-left">
                         <h5>Featured Project</h5>
                         <h2 style={{ color: "rgb(255, 90, 95)" }}>Volunteer Network</h2>
                         <div>
@@ -129,7 +136,7 @@ const Projects = () => {
                             <img src='https://i.ibb.co/QYXv8Vq/Home.png' className="img-fluid" alt="" />
                         </a>
                     </div>
-                    <div>
+                    <div data-aos="fade-down-left">
                         <h5>Featured Project</h5>
                         <h2 style={{ color: "red" }}>Travel Guru</h2>
                         <div>
@@ -141,7 +148,7 @@ const Projects = () => {
                              </p>
                         </div>
                         <div className="work__project__bottom">
-                            <Chip label="React" />
+                            <Chip label="React" className="cmn"/>
                             <Chip label="Firebase" />
                             <Chip label="MongoDB" />
                             <a href="https://github.com/mozumderTushar/travel-guru.git" className="link2">
@@ -155,13 +162,13 @@ const Projects = () => {
                 </div>
 
                 {/* fifth project */}
-                <div className="work__project mb-5">
-                    <div data-aos="zoom-in">
+                <div className="work__project mb-5" data-aos="zoom-in">
+                    <div>
                         <a href="https://mozumdertushar.github.io/hard-rock/" className="link">
                             <img src='https://i.ibb.co/tLFJ8TZ/Screenshot-2.png' className="img-fluid" alt="" />
                         </a>
                     </div>
-                    <div>
+                    <div data-aos="fade-down-right">
                         <h5>Featured Project</h5>
                         <h2 style={{ color: "rgb(255, 90, 95)" }}>Hard Rock</h2>
                         <div>

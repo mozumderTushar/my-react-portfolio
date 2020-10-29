@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ContactMe from "../../ContactMe/ContactMe";
 import Nav from "../Nav/Nav";
 import './AboutMe.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 
 const AboutMe = () => {
-  const [header] = React.useState({
+
+  useEffect(() => {
+    Aos.init({ duration: 2000})
+},[])
+
+  const [header] = useState({
     subHeader: "About Me",
     text:
       "Front End Web Developer",
@@ -19,12 +27,12 @@ const AboutMe = () => {
     <div className="about-container">
       <div className="about">
       <div className="container">
-        <div className="common">
+        <div className="common"  data-aos="zoom-in">
           <h1 className="mainHeader">{header.subHeader}</h1>
           <p className="mainContent">{header.text}</p>
           <div className="commonBorder"></div>
         </div>
-        <div className="row  h-650 alignCenter">
+        <div className="row  h-650 alignCenter" data-aos="fade-right">
           <div className="col-md-6">
             <div className="about__img">
               <img src="/images/man-01.png" alt="man" />

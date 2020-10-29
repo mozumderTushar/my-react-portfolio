@@ -19,7 +19,8 @@ import {
 const Footer = () => {
     return (
         <div className="footer" id="contact">
-        <div className="footer__header" data-aos="zoom-in">
+          <div data-aos="zoom-in">
+        <div className="footer__header" >
           <h2>Let's build something great together .</h2>
           <p>
             If you'd like to start a new project, need help with an existing
@@ -87,6 +88,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     );
 };
