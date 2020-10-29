@@ -4,6 +4,7 @@ import Contact from '../Contact/Contact';
 import Nav from '../Nav/Nav';
 import Services from '../Services/Services';
 import AboutMe from '../AboutMe/AboutMe';
+import Footer from '../Footer/Footer';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Services />
             <AboutMe />
             <Contact />
+            <Footer />
            
         </div>
     );
