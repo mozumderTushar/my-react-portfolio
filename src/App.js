@@ -9,6 +9,9 @@ import {
 import Home from "./components/Home/Home/Home";
 import Blog from "./components/Blog/Blog";
 import Projects from "./components/Projects/Projects";
+import NotFound from "./components/NotFound/NotFound";
+import Resume from "./components/Resume/Resume";
+import About from "./components/About/About";
 
 
 
@@ -25,6 +28,15 @@ function App() {
           </Route>
           <Route path="/projects">
             <Projects />
+          </Route>
+          <Route path="/resume">
+            <Resume />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="*">
+            <NotFound />
           </Route>
         </Switch>
       </Router>

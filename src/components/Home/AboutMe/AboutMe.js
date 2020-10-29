@@ -1,7 +1,7 @@
 import React from "react";
-import './About.css'
+import './AboutMe.css'
 
-const About = () => {
+const AboutMe = () => {
   const [header] = React.useState({
     subHeader: "About Me",
     text:
@@ -57,4 +57,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutMe;
