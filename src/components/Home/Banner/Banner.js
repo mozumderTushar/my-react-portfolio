@@ -1,5 +1,6 @@
 import React from "react";
 import './Banner.css'
+import myResume from "../../../../src/resume/Resume_of_Tushar.pdf"
 import {
   FaFacebookF,
   FaTwitter,
@@ -51,9 +52,7 @@ const Banner = () => {
                 <h1>{state.title}</h1>
                 <p>{state.text}</p>
                 <div className="header__buttons">
-                  <a href="" className="btn btn-outline">
-                    My Resume
-                  </a>
+                  <Link to={myResume} className="btn btn-outline" target="_blank" download>My Resume</Link>
                   &nbsp;&nbsp;&nbsp;
                 </div>
               </div>
