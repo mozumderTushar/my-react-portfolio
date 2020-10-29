@@ -18,7 +18,6 @@ const ContactMe = () => {
 
     return (
         <div className="bgMain" style={{height: '100vh' }}>
-            <Nav/>
              <div className="container">
             <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">

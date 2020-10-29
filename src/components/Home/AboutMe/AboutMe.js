@@ -1,20 +1,23 @@
 import React from "react";
+import ContactMe from "../../ContactMe/ContactMe";
+import Nav from "../Nav/Nav";
 import './AboutMe.css'
 
 const AboutMe = () => {
   const [header] = React.useState({
     subHeader: "About Me",
     text:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
+      "Front End Web Developer",
   });
   const [state] = React.useState([
-    { id: 1, title: "Name:", text: "Jonathan Doe" },
-    { id: 2, title: "Email:", text: "example@domain.com" },
-    { id: 3, title: "Phone:", text: "+1 023 454 345" },
-    { id: 4, title: "Linkedin", text: "Jonathan_123" },
+    { id: 1, title: "Name:", text: "Mayen Uddin Mozumder" },
+    { id: 2, title: "Email:", text: "mozumder.tushar002@gmail.com" },
+    { id: 3, title: "Phone:", text: "+88 01818852316" },
+    { id: 4, title: "Linkedin", text: "mayen-uddin-mozumder-a6659b1b1" },
   ]);
   return (
-    <div className="about">
+    <div className="about-container">
+      <div className="about">
       <div className="container">
         <div className="common">
           <h1 className="mainHeader">{header.subHeader}</h1>
@@ -31,13 +34,13 @@ const AboutMe = () => {
             <div className="about__info">
               <h1>Hi There</h1>
               <div className="about__info-p1">
-                In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui
-                at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id
-                efficitur sagittis, urna est ultricies eros, ac porta sem turpis
+                I'm Mayen Uddin Mozumder Tushar a Front End Web Developer with experience in building and maintaining responsive websites. Proficient in JavaScript and React JS has professional experience working with Node JS, also skilled in Bootstrap, Cascading Style Sheets (CSS), JavaScript, MySQL, MongoDB, HTML5 & CSS3.
+                <br /><br />
+                I'm highly passionate about JavaScript-based software development technologies such as: <br />
+                - MERN Stack (MongoDB, Express.js, React, Node.js)
               </div>
               <div className="about__info-p2">
-                nunc id efficitur sagittis, urna est ultricies eros, ac porta
-                sem turpis porta sem turpis quis leo. Nulla in feugiat elit
+
               </div>
               <div className="info__contacts">
                 <div className="row">
@@ -53,6 +56,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

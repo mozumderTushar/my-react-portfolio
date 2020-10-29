@@ -1,70 +1,78 @@
 import React from "react";
 import './Services.css'
+import GitHubIcon from "@material-ui/icons/GitHub";
+import VisibilityIcon from "@material-ui/icons/Visibility";
 import {
-  FaGithub,
-  FaCamera,
   FaCircleNotch,
-  FaApple,
-  FaFileVideo,
-  FaSearchDollar,
+  FaHospital,
+  FaCreativeCommonsSampling,
+  FaTrain,
+  FaFileAudio,
+  FaHamburger,
 } from "react-icons/fa";
+
 
 const Services = () => {
   const [header] = React.useState({
-    mainHeader: "SERVICES",
-    subHeading: "My Services",
+    mainHeader: "PROJECTS",
+    subHeading: "My Projects",
     text:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting\
-    industry. Lorem Ipsum standard dummy text.",
+      "Some Things I've Built",
   });
   const [state] = React.useState([
     {
       id: 1,
-      icon: <FaGithub className="commonIcons" />,
-      heading: "Web Development",
+      icon: <FaCreativeCommonsSampling className="commonIcons" />,
+      heading: "CREATIVE AGENCY",
+      githubLink:"https://github.com/mozumderTushar/hard-rock.git",
+      LiveLink:"https://github.com/mozumderTushar/hard-rock.git",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-      industry. simply dummy",
+        "A Service Selling Website, Where Users Can Get Their Required Services.",
     },
     {
       id: 2,
-      icon: <FaCamera className="commonIcons" />,
-      heading: "Photography",
+      icon: <FaHospital className="commonIcons" />,
+      heading: "DOCTORS PORTAL",
+      githubLink:"https://github.com/mozumderTushar/hard-rock.git",
+      LiveLink:"https://github.com/mozumderTushar/hard-rock.git",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "A Service Giving Website, Where Patients Can Pick The Date And Time And Fix Appointments.",
     },
     {
       id: 3,
       icon: <FaCircleNotch className="commonIcons" />,
-      heading: "Web Desing",
+      heading: "VOLUNTEER NETWORK",
+      githubLink:"https://github.com/mozumderTushar/hard-rock.git",
+      LiveLink:"https://github.com/mozumderTushar/hard-rock.git",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "A Social Servicing Website With Dashboard And Multiple Options Of Volunteer Event.",
     },
     {
       id: 4,
-      icon: <FaApple className="commonIcons" />,
-      heading: "App Devlopment",
+      icon: <FaTrain className="commonIcons" />,
+      heading: "TRAVEL GURU",
+      githubLink:"https://github.com/mozumderTushar/hard-rock.git",
+      LiveLink:"https://github.com/mozumderTushar/hard-rock.git",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "A Traveling Website With Multiple Options Of Tourist Places. Users Can Easily Find Their Favorite Places & Hotels.",
     },
     {
       id: 5,
-      icon: <FaFileVideo className="commonIcons" />,
-      heading: "Video Editing",
+      icon: <FaFileAudio className="commonIcons" />,
+      heading: "HARD ROCK",
+      githubLink:"https://github.com/mozumderTushar/hard-rock.git",
+      LiveLink:"https://github.com/mozumderTushar/hard-rock.git",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "Hard Rock Boasts An Extensive Library Of Song Lyrics Presented In A Clean And Crisply Designed Website.",
     },
     {
       id: 6,
-      icon: <FaSearchDollar className="commonIcons" />,
-      heading: "SEO Expert",
+      icon: <FaHamburger className="commonIcons" />,
+      heading: "AWESOME FOOD",
+      githubLink:"https://github.com/mozumderTushar/hard-rock.git",
+      LiveLink:"https://github.com/mozumderTushar/hard-rock.git",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "A Food Delivery Website, Where Users Can Pick There Favorite Food And Order The Food",
     },
   ]);
   return (
@@ -80,11 +88,12 @@ const Services = () => {
 
           <div className="row bgMain">
             {state.map((info) => (
-              <div className="col-md-4 bgMain">
+              <div className="col-md-4 bgMain text-center">
                 <div className="services__box">
                   {info.icon}
                   <div className="services__box-header">{info.heading}</div>
                   <div className="services__box-p">{info.text}</div>
+                  <a href={info.githubLink}><GitHubIcon className="commonIcons"></GitHubIcon></a>
                 </div>
               </div>
             ))}
