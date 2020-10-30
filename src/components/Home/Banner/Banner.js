@@ -21,6 +21,7 @@ const Banner = () => {
       "I'm professional web developer with long time \
     experience in this field​",
     image: "/images/man-01.png",
+    imageTwo: "/images/man-02.png",
   });
   return (
     <div>
@@ -81,9 +82,9 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-5">
             <div className="banner__img">
-              <img src={state.image} alt="man" />
+              <img className="img-fluid mt-3" src={state.imageTwo} alt="man" />
             </div>
           </div>
         </div>

@@ -18,11 +18,11 @@ const Projects = () => {
             <Nav/>
             <div className="container project__container">
                 <div className="work__caption text-center">
-                    <h2>Some Things I've Built</h2>
+                    <h2 data-aos="zoom-in" style={{borderBottom:'2px solid gray'}} className='pb-3'>Some Things I've Built</h2>
                 </div>
 
                 {/* first project */}
-                <div className="work__project">
+                <div className="work__project mt-5">
                     <div data-aos="zoom-in">
                         <a href="https://creative-agency-19e08.web.app/" className="link">
                             <img src='https://i.ibb.co/swLjRx8/1-Landing-page.png' className="img-fluid" alt="" />
@@ -161,7 +161,38 @@ const Projects = () => {
                     </div>
                 </div>
 
-                {/* fifth project */}
+                 {/* fifth project */}
+                 <div className="work__project mb-5" data-aos="fade-up">
+                    <div>
+                        <a href="https://cocky-noyce-d73451.netlify.app/" className="link">
+                            <img src='https://i.ibb.co/ysYhxD1/Screenshot-6.png' className="img-fluid" alt="" />
+                        </a>
+                    </div>
+                    <div >
+                        <h5>Featured Project</h5>
+                        <h2 style={{ color: "rgb(255, 90, 95)" }}>Awesome Food</h2>
+                        <div>
+                            <p>
+                                ❖ An all around lovely and clean-cut website for all of your recipe desires. 
+                                Find collections based on meals, in addition to snack beverages and more. 
+                             </p>
+                        </div>
+                        <div className="work__project__bottom">
+                            <Chip label="React" className="cmn"/>
+                            <Chip label="Bootstrap" />
+                            <Chip label="HTML5" />
+                            <Chip label="CSS3" />
+                            <a href="https://github.com/mozumderTushar/my-awesome-food.git" className="link2">
+                                <GitHubIcon></GitHubIcon>
+                            </a>
+                            <a href="https://cocky-noyce-d73451.netlify.app/" className="link2">
+                                <VisibilityIcon></VisibilityIcon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* sixth project */}
                 <div className="work__project mb-5" data-aos="fade-up">
                     <div>
                         <a href="https://mozumdertushar.github.io/hard-rock/" className="link">
@@ -191,35 +222,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                 {/* sixth project */}
-                 <div className="work__project mb-5" data-aos="fade-up">
-                    <div>
-                        <a href="https://mozumdertushar.github.io/hard-rock/" className="link">
-                            <img src='https://i.ibb.co/tLFJ8TZ/Screenshot-2.png' className="img-fluid" alt="" />
-                        </a>
-                    </div>
-                    <div >
-                        <h5>Featured Project</h5>
-                        <h2 style={{ color: "rgb(255, 90, 95)" }}>Awesome Food</h2>
-                        <div>
-                            <p>
-                                ❖ An all around lovely and clean-cut website for all of your recipe desires. 
-                                Find collections based on meals, in addition to snack beverages and more. 
-                             </p>
-                        </div>
-                        <div className="work__project__bottom">
-                            <Chip label="HTML5" />
-                            <Chip label="CSS3" />
-                            <Chip label="API" />
-                            <a href="https://github.com/mozumderTushar/hard-rock.git" className="link2">
-                                <GitHubIcon></GitHubIcon>
-                            </a>
-                            <a href="https://mozumdertushar.github.io/hard-rock/" className="link2">
-                                <VisibilityIcon></VisibilityIcon>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     );

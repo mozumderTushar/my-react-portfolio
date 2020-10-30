@@ -30,7 +30,7 @@ const About = () => {
       <div className="container my-5" data-aos="zoom-in">
         <div className="row mt-5">
           <div className="col-md-4">
-            <img src="https://i.ibb.co/BzzSg21/man-01.png" className='img-fluid' alt="" />
+            <img src="https://i.ibb.co/ZJ3vnmY/man-01.png" className='img-fluid' alt="" />
           </div>
           <div className="col-md-8">
             <div className="about-info text-white">
