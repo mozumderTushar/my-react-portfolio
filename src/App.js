@@ -35,10 +35,11 @@ function App() {
           </Route>
           <Route path="/resume">
             <Resume />
+            <Footer/>
           </Route>
           <Route path="/about">
             <About />
-            <Footer/>
+
           </Route>
           <Route path="/contact">
             <Nav/>

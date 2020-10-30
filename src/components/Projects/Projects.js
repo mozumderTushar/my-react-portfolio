@@ -94,13 +94,13 @@ const Projects = () => {
                 </div>
 
                 {/* third project */}
-                <div className="work__project" >
-                    <div data-aos="fade-up-right">
+                <div className="work__project" data-aos="zoom-in">
+                    <div >
                         <a href="https://volunteer-network-ccdb0.web.app/" className="link">
                             <img src='https://i.ibb.co/1Ky0F1Z/1-Landing-page.png' className="img-fluid" alt="" />
                         </a>
                     </div>
-                    <div  data-aos="fade-up-left">
+                    <div >
                         <h5>Featured Project</h5>
                         <h2 style={{ color: "rgb(255, 90, 95)" }}>Volunteer Network</h2>
                         <div>

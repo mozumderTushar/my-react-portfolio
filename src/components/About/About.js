@@ -4,6 +4,7 @@ import './About.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Particles from 'react-particles-js';
+import Footer from '../Home/Footer/Footer';
 
 const About = () => {
   
@@ -12,7 +13,7 @@ const About = () => {
   }, [])
 
   return (
-    <div className="bgMain" style={{ height: '100vh' }} >
+    <div className="bgMain"  >
       <Nav />
       <Particles
         params={{
@@ -52,7 +53,9 @@ const About = () => {
             </div>
           </div>
         </div>
+       
       </div>
+      <Footer/>
     </div>
   );
 };

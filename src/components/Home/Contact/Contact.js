@@ -26,7 +26,7 @@ const Contact = () => {
           <h1 className="mainHeader text-center p-2" >Contact</h1>
           <div className="commonBorder"></div>
         </div>
-        <div data-aos="fade-left">
+        <div data-aos="zoom-in">
           <ContactMe />
         </div>
       </div>
