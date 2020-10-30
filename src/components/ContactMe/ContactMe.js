@@ -14,6 +14,7 @@ const ContactMe = () => {
             }, (error) => {
                 console.log(error.text);
             });
+            alert('Your Message Successfully Send')
         e.target.reset()
     }
 
