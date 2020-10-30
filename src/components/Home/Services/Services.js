@@ -31,8 +31,7 @@ const Services = () => {
       id: 1,
       icon: <FaCreativeCommonsSampling className="commonIcons" />,
       heading: "CREATIVE AGENCY",
-      githubLink:"https://github.com/mozumderTushar/hard-rock.git",
-      LiveLink:"https://github.com/mozumderTushar/hard-rock.git",
+      githubLink:"https://github.com/mozumderTushar/creative-agency-client.git",
       text:
         "A Service Selling Website, Where Users Can Get Their Required Services.",
     },
@@ -40,8 +39,7 @@ const Services = () => {
       id: 2,
       icon: <FaHospital className="commonIcons" />,
       heading: "DOCTORS PORTAL",
-      githubLink:"https://github.com/mozumderTushar/hard-rock.git",
-      LiveLink:"https://github.com/mozumderTushar/hard-rock.git",
+      githubLink:"https://github.com/mozumderTushar/doctors-portal-v.1-client-master.git",
       text:
         "A Service Giving Website, Where Patients Can Pick The Date And Time And Fix Appointments.",
     },
@@ -49,8 +47,7 @@ const Services = () => {
       id: 3,
       icon: <FaCircleNotch className="commonIcons" />,
       heading: "VOLUNTEER NETWORK",
-      githubLink:"https://github.com/mozumderTushar/hard-rock.git",
-      LiveLink:"https://github.com/mozumderTushar/hard-rock.git",
+      githubLink:"https://github.com/mozumderTushar/volunteer-network-client.git",
       text:
         "A Social Servicing Website With Dashboard And Multiple Options Of Volunteer Event.",
     },
@@ -58,8 +55,7 @@ const Services = () => {
       id: 4,
       icon: <FaTrain className="commonIcons" />,
       heading: "TRAVEL GURU",
-      githubLink:"https://github.com/mozumderTushar/hard-rock.git",
-      LiveLink:"https://github.com/mozumderTushar/hard-rock.git",
+      githubLink:"https://github.com/mozumderTushar/travel-guru.git",
       text:
         "A Traveling Website With Multiple Options Of Tourist Places. Users Can Easily Find Their Favorite Places & Hotels.",
     },
@@ -68,7 +64,6 @@ const Services = () => {
       icon: <FaFileAudio className="commonIcons" />,
       heading: "HARD ROCK",
       githubLink:"https://github.com/mozumderTushar/hard-rock.git",
-      LiveLink:"https://github.com/mozumderTushar/hard-rock.git",
       text:
         "Hard Rock Boasts An Extensive Library Of Song Lyrics Presented In A Clean And Crisply Designed Website.",
     },
@@ -76,8 +71,7 @@ const Services = () => {
       id: 6,
       icon: <FaHamburger className="commonIcons" />,
       heading: "AWESOME FOOD",
-      githubLink:"https://github.com/mozumderTushar/hard-rock.git",
-      LiveLink:"https://github.com/mozumderTushar/hard-rock.git",
+      githubLink:"https://github.com/mozumderTushar/my-awesome-food.git",
       text:
         "A Food Delivery Website, Where Users Can Pick There Favorite Food And Order The Food",
     },
