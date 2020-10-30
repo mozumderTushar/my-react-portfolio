@@ -4,6 +4,7 @@ import Nav from "../Nav/Nav";
 import './AboutMe.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import Particles from 'react-particles-js';
 
 
 const AboutMe = () => {
@@ -20,11 +21,24 @@ const AboutMe = () => {
   const [state] = React.useState([
     { id: 1, title: "Name:", text: "Mayen Uddin Mozumder" },
     { id: 2, title: "Email:", text: "mozumder.tushar002@gmail.com" },
-    { id: 3, title: "Phone:", text: "+88 01818852316" },
+    { id: 3, title: "Phone:", text: "+880 1818852316" },
     { id: 4, title: "Linkedin", text: "mayen-uddin-mozumder-a6659b1b1" },
   ]);
   return (
     <div className="about-container">
+      <Particles 
+        params={{ 
+          particles: { 
+            number: { 
+              value: 50, 
+              density: { 
+                enable: true, 
+                value_area: 1000, 
+              } 
+            }, 
+          }, 
+        }} 
+      /> 
       <div className="about">
       <div className="container">
         <div className="common"  data-aos="zoom-in">

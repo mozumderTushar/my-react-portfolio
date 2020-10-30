@@ -136,7 +136,7 @@ const Projects = () => {
                             <img src='https://i.ibb.co/QYXv8Vq/Home.png' className="img-fluid" alt="" />
                         </a>
                     </div>
-                    <div data-aos="fade-down-left">
+                    <div data-aos="fade-down-right">
                         <h5>Featured Project</h5>
                         <h2 style={{ color: "red" }}>Travel Guru</h2>
                         <div>
@@ -162,19 +162,49 @@ const Projects = () => {
                 </div>
 
                 {/* fifth project */}
-                <div className="work__project mb-5" data-aos="zoom-in">
+                <div className="work__project mb-5" data-aos="fade-up">
                     <div>
                         <a href="https://mozumdertushar.github.io/hard-rock/" className="link">
                             <img src='https://i.ibb.co/tLFJ8TZ/Screenshot-2.png' className="img-fluid" alt="" />
                         </a>
                     </div>
-                    <div data-aos="fade-down-right">
+                    <div >
                         <h5>Featured Project</h5>
                         <h2 style={{ color: "rgb(255, 90, 95)" }}>Hard Rock</h2>
                         <div>
                             <p>
                                 ❖ Hard Rock boasts an extensive library of song lyrics presented in a clean and crisply designed website.
                                 It features a sturdy search bar that allows users to search favorite lyrics by lyrics, melodies, and artists
+                             </p>
+                        </div>
+                        <div className="work__project__bottom">
+                            <Chip label="HTML5" />
+                            <Chip label="CSS3" />
+                            <Chip label="API" />
+                            <a href="https://github.com/mozumderTushar/hard-rock.git" className="link2">
+                                <GitHubIcon></GitHubIcon>
+                            </a>
+                            <a href="https://mozumdertushar.github.io/hard-rock/" className="link2">
+                                <VisibilityIcon></VisibilityIcon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                 {/* sixth project */}
+                 <div className="work__project mb-5" data-aos="fade-up">
+                    <div>
+                        <a href="https://mozumdertushar.github.io/hard-rock/" className="link">
+                            <img src='https://i.ibb.co/tLFJ8TZ/Screenshot-2.png' className="img-fluid" alt="" />
+                        </a>
+                    </div>
+                    <div >
+                        <h5>Featured Project</h5>
+                        <h2 style={{ color: "rgb(255, 90, 95)" }}>Awesome Food</h2>
+                        <div>
+                            <p>
+                                ❖ An all around lovely and clean-cut website for all of your recipe desires. 
+                                Find collections based on meals, in addition to snack beverages and more. 
                              </p>
                         </div>
                         <div className="work__project__bottom">

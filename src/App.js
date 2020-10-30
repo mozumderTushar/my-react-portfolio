@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import {
   BrowserRouter as Router,
@@ -13,12 +13,13 @@ import NotFound from "./components/NotFound/NotFound";
 import Resume from "./components/Resume/Resume";
 import About from "./components/About/About";
 import ContactMe from "./components/ContactMe/ContactMe";
-
-
+import Footer from "./components/Home/Footer/Footer";
+import Nav from "./components/Home/Nav/Nav";
 
 function App() {
+
   return (
-    <div>
+    <div> 
       <Router>
         <Switch>
           <Route exact path="/">
@@ -26,18 +27,23 @@ function App() {
           </Route>
           <Route path="/blog">
             <Blog />
+            <Footer/>
           </Route>
           <Route path="/projects">
             <Projects />
+            <Footer/>
           </Route>
           <Route path="/resume">
             <Resume />
           </Route>
           <Route path="/about">
             <About />
+            <Footer/>
           </Route>
           <Route path="/contact">
+            <Nav/>
             <ContactMe />
+            <Footer/>
           </Route>
           <Route path="*">
             <NotFound />

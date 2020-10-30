@@ -15,10 +15,12 @@ import {
     FaLinkedin,
     FaLinkedinIn,
   } from "react-icons/fa";
+  
 
 const Footer = () => {
     return (
         <div className="footer" id="contact">
+          
           <div data-aos="zoom-in">
         <div className="footer__header" >
           <h2>Let's build something great together .</h2>
@@ -27,7 +29,7 @@ const Footer = () => {
             project or have any other enquiry, please get in touch.
           </p>
         </div>
-        <div className="footer__contact">
+        <div className="footer__contact mt-5">
           <Grid container className="grid">
             <Grid lg={4} xs={12} md={6} className="grid__col">
               <EmailIcon></EmailIcon>

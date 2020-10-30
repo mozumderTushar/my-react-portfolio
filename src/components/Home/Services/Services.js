@@ -83,7 +83,7 @@ const Services = () => {
     },
   ]);
   return (
-    <div className="services">
+    <div className="services"> 
       <div className="container">
         <div className="services__header">
           <div className="common" data-aos="zoom-in">

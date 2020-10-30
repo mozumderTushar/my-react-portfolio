@@ -6,10 +6,12 @@ import {
   FaFacebookF,
   FaTwitter,
   FaGithub,
-  FaLinkedin,
   FaLinkedinIn,
+  FaFileDownload,
+  FaDownload,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Particles from 'react-particles-js';
 
 const Banner = () => {
 
@@ -21,6 +23,20 @@ const Banner = () => {
     image: "/images/man-01.png",
   });
   return (
+    <div>
+       <Particles 
+        params={{ 
+          particles: { 
+            number: { 
+              value: 50, 
+              density: { 
+                enable: true, 
+                value_area: 1000, 
+              } 
+            }, 
+          }, 
+        }} 
+      /> 
     <header className="header">
       <div className="container">
         <div className="row">
@@ -28,6 +44,7 @@ const Banner = () => {
             <div className="header__content">
               <div className="header__section">
                 <ul className="header__ul">
+                  
                   <li>
                     <a href="https://web.facebook.com/profile.php?id=100009477859668">
                       <FaFacebookF className="headerIcon" />
@@ -50,13 +67,15 @@ const Banner = () => {
                   </li>
                 </ul>
                 <Typical
-                  steps={['I am ', 1000, 'Mayen Uddin Mozumder', 100]}
+                  steps={['I am ', 1000, 'Mayen Uddin', 100]}
                   loop={Infinity}
                   wrapper="h1"
                 />
                 <p>{state.text}</p>
                 <div className="header__buttons">
-                  <Link to={myResume} className="btn btn-outline" target="_blank" download>My Resume</Link>
+                  <Link to={myResume} className="btn btn-outline" target="_blank" download>
+                  <FaDownload className="mr-2"/> 
+                    My Resume</Link>
                   &nbsp;&nbsp;&nbsp;
                 </div>
               </div>
@@ -70,6 +89,7 @@ const Banner = () => {
         </div>
       </div>
     </header>
+    </div>
   );
 };
 

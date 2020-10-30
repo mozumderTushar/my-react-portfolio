@@ -19,7 +19,9 @@ const Contact = () => {
 
   return (
     <div className="contact" style={{ backgroundColor: "#1F2235" }}>
+    
       <div className="contact-info" style={{ backgroundColor: '#23263A' }}>
+        
         <div data-aos="zoom-in">
           <h1 className="mainHeader text-center p-2" >Contact</h1>
           <div className="commonBorder"></div>

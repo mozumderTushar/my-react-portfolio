@@ -69,10 +69,14 @@
   .btn:hover{
     background: #fff;
     color: #ff4a57;
+    font-weight: 600;
     border: 2px solid transparent; 
   }
   svg.headerIcon {
     color: aliceblue;
+}
+canvas.tsparticles-canvas-el {
+  position: absolute;
 }
  
   
