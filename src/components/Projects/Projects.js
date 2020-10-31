@@ -48,10 +48,10 @@ const Projects = () => {
                             <Chip label="NodeJs" />
                             <Chip label="MongoDB" />
                             <a href="https://github.com/mozumderTushar/creative-agency-client.git" className="link2">
-                                <GitHubIcon></GitHubIcon>
+                                <GitHubIcon className="commonIcons"></GitHubIcon>
                             </a>
                             <a href="https://creative-agency-19e08.web.app/" className="link2">
-                                <VisibilityIcon></VisibilityIcon>
+                                <VisibilityIcon className="commonIcons"></VisibilityIcon>
                             </a>
                         </div>
                     </div>
@@ -84,10 +84,10 @@ const Projects = () => {
                             <Chip label="NodeJs" />
                             <Chip label="MongoDB" />
                             <a href="https://github.com/mozumderTushar/doctors-portal-v.1-client-master.git" className="link2">
-                                <GitHubIcon></GitHubIcon>
+                                <GitHubIcon className="commonIcons"></GitHubIcon>
                             </a>
                             <a href="https://doctors-portal-2ba18.web.app/" className="link2">
-                                <VisibilityIcon></VisibilityIcon>
+                                <VisibilityIcon className="commonIcons"></VisibilityIcon>
                             </a>
                         </div>
                     </div>
@@ -120,10 +120,10 @@ const Projects = () => {
                             <Chip label="NodeJs" />
                             <Chip label="MongoDB" />
                             <a href="https://github.com/mozumderTushar/volunteer-network-client.git" className="link2">
-                                <GitHubIcon></GitHubIcon>
+                                <GitHubIcon className="commonIcons"></GitHubIcon>
                             </a>
                             <a href="https://volunteer-network-ccdb0.web.app/" className="link2">
-                                <VisibilityIcon></VisibilityIcon>
+                                <VisibilityIcon className="commonIcons"></VisibilityIcon>
                             </a>
                         </div>
                     </div>
@@ -152,10 +152,10 @@ const Projects = () => {
                             <Chip label="Firebase" />
                             <Chip label="MongoDB" />
                             <a href="https://github.com/mozumderTushar/travel-guru.git" className="link2">
-                                <GitHubIcon></GitHubIcon>
+                                <GitHubIcon className="commonIcons"></GitHubIcon>
                             </a>
                             <a href="https://travel-guru-c1cf9.web.app/" className="link2">
-                                <VisibilityIcon></VisibilityIcon>
+                                <VisibilityIcon className="commonIcons"></VisibilityIcon>
                             </a>
                         </div>
                     </div>
@@ -183,10 +183,10 @@ const Projects = () => {
                             <Chip label="HTML5" />
                             <Chip label="CSS3" />
                             <a href="https://github.com/mozumderTushar/my-awesome-food.git" className="link2">
-                                <GitHubIcon></GitHubIcon>
+                                <GitHubIcon className="commonIcons"></GitHubIcon>
                             </a>
                             <a href="https://cocky-noyce-d73451.netlify.app/" className="link2">
-                                <VisibilityIcon></VisibilityIcon>
+                                <VisibilityIcon className="commonIcons"></VisibilityIcon>
                             </a>
                         </div>
                     </div>
@@ -213,10 +213,10 @@ const Projects = () => {
                             <Chip label="CSS3" />
                             <Chip label="API" />
                             <a href="https://github.com/mozumderTushar/hard-rock.git" className="link2">
-                                <GitHubIcon></GitHubIcon>
+                                <GitHubIcon className="commonIcons"></GitHubIcon>
                             </a>
                             <a href="https://mozumdertushar.github.io/hard-rock/" className="link2">
-                                <VisibilityIcon></VisibilityIcon>
+                                <VisibilityIcon className="commonIcons"></VisibilityIcon>
                             </a>
                         </div>
                     </div>

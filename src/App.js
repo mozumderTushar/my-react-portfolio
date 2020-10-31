@@ -33,13 +33,8 @@ function App() {
             <Projects />
             <Footer/>
           </Route>
-          <Route path="/resume">
-            <Resume />
-            <Footer/>
-          </Route>
           <Route path="/about">
             <About />
-
           </Route>
           <Route path="/contact">
             <Nav/>
