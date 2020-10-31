@@ -102,9 +102,6 @@ const Services = () => {
                   {info.icon}
                   <div className="services__box-header">{info.heading}</div>
                   <div className="services__box-p">{info.text}</div>
-                  <a href={info.githubLink}><FaGithub style={{height:'30px'}} className="commonIcons mr-3"></FaGithub></a>
-                  <a href={info.liveLink}><FaExternalLinkSquareAlt style={{height:'30px'}} className="commonIcons"></FaExternalLinkSquareAlt></a>
-                  
                 </div>
                </Link>
               </div>
