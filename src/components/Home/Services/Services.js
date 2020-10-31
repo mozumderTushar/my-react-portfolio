@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { Link } from "react-router-dom";
 
 
 const Services = () => {
@@ -96,7 +97,8 @@ const Services = () => {
           <div className="row bgMain"  data-aos="zoom-in">
             {state.map((info) => (
               <div className="col-md-4 bgMain text-center">
-                <div className="services__box">
+               <Link to='/projects' style={{textDecoration: 'none'}}>
+               <div className="services__box">
                   {info.icon}
                   <div className="services__box-header">{info.heading}</div>
                   <div className="services__box-p">{info.text}</div>
@@ -104,6 +106,7 @@ const Services = () => {
                   <a href={info.liveLink}><FaExternalLinkSquareAlt style={{height:'30px'}} className="commonIcons"></FaExternalLinkSquareAlt></a>
                   
                 </div>
+               </Link>
               </div>
             ))}
           </div>

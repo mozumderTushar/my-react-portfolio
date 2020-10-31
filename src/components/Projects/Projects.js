@@ -6,19 +6,25 @@ import Nav from '../Home/Nav/Nav';
 import './Projects.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import {
+    FaExternalLinkAlt,
+    FaExternalLinkSquareAlt, FaGithub,
+} from "react-icons/fa";
 
 const Projects = () => {
 
+    window.scrollTo(0, 0);
+
     useEffect(() => {
-        Aos.init({ duration: 2000})
-    },[])
+        Aos.init({ duration: 2000 })
+    }, [])
 
     return (
         <div className="bgMain text-white" >
-            <Nav/>
+            <Nav />
             <div className="container project__container">
                 <div className="work__caption text-center">
-                    <h2 data-aos="zoom-in" style={{borderBottom:'2px solid gray'}} className='pb-3'>Some Things I've Built</h2>
+                    <h2 data-aos="zoom-in" style={{ borderBottom: '2px solid gray' }} className='pb-3'>Some Things I've Built</h2>
                 </div>
 
                 {/* first project */}
@@ -48,10 +54,10 @@ const Projects = () => {
                             <Chip label="NodeJs" />
                             <Chip label="MongoDB" />
                             <a href="https://github.com/mozumderTushar/creative-agency-client.git" className="link2">
-                                <GitHubIcon className="commonIcons"></GitHubIcon>
+                                <FaGithub style={{ height: '32px' }} className="commonIcons"></FaGithub>
                             </a>
                             <a href="https://creative-agency-19e08.web.app/" className="link2">
-                                <VisibilityIcon className="commonIcons"></VisibilityIcon>
+                                <FaExternalLinkSquareAlt style={{ height: '32px' }} className="commonIcons"></FaExternalLinkSquareAlt>
                             </a>
                         </div>
                     </div>
@@ -84,10 +90,10 @@ const Projects = () => {
                             <Chip label="NodeJs" />
                             <Chip label="MongoDB" />
                             <a href="https://github.com/mozumderTushar/doctors-portal-v.1-client-master.git" className="link2">
-                                <GitHubIcon className="commonIcons"></GitHubIcon>
+                                <FaGithub style={{ height: '32px' }} className="commonIcons"></FaGithub>
                             </a>
                             <a href="https://doctors-portal-2ba18.web.app/" className="link2">
-                                <VisibilityIcon className="commonIcons"></VisibilityIcon>
+                                <FaExternalLinkSquareAlt style={{ height: '32px' }} className="commonIcons"></FaExternalLinkSquareAlt>
                             </a>
                         </div>
                     </div>
@@ -120,10 +126,10 @@ const Projects = () => {
                             <Chip label="NodeJs" />
                             <Chip label="MongoDB" />
                             <a href="https://github.com/mozumderTushar/volunteer-network-client.git" className="link2">
-                                <GitHubIcon className="commonIcons"></GitHubIcon>
+                                <FaGithub style={{ height: '32px' }} className="commonIcons"></FaGithub>
                             </a>
                             <a href="https://volunteer-network-ccdb0.web.app/" className="link2">
-                                <VisibilityIcon className="commonIcons"></VisibilityIcon>
+                                <FaExternalLinkSquareAlt style={{ height: '32px' }} className="commonIcons"></FaExternalLinkSquareAlt>
                             </a>
                         </div>
                     </div>
@@ -148,21 +154,21 @@ const Projects = () => {
                              </p>
                         </div>
                         <div className="work__project__bottom">
-                            <Chip label="React" className="cmn"/>
+                            <Chip label="React" className="cmn" />
                             <Chip label="Firebase" />
                             <Chip label="MongoDB" />
                             <a href="https://github.com/mozumderTushar/travel-guru.git" className="link2">
-                                <GitHubIcon className="commonIcons"></GitHubIcon>
+                                <FaGithub style={{ height: '32px' }} className="commonIcons"></FaGithub>
                             </a>
                             <a href="https://travel-guru-c1cf9.web.app/" className="link2">
-                                <VisibilityIcon className="commonIcons"></VisibilityIcon>
+                                <FaExternalLinkSquareAlt style={{ height: '32px' }} className="commonIcons"></FaExternalLinkSquareAlt>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                 {/* fifth project */}
-                 <div className="work__project mb-5" data-aos="fade-up">
+                {/* fifth project */}
+                <div className="work__project mb-5" data-aos="fade-up">
                     <div>
                         <a href="https://cocky-noyce-d73451.netlify.app/" className="link">
                             <img src='https://i.ibb.co/ysYhxD1/Screenshot-6.png' className="img-fluid" alt="" />
@@ -173,20 +179,20 @@ const Projects = () => {
                         <h2 style={{ color: "rgb(255, 90, 95)" }}>Awesome Food</h2>
                         <div>
                             <p>
-                                ❖ An all around lovely and clean-cut website for all of your recipe desires. 
-                                Find collections based on meals, in addition to snack beverages and more. 
+                                ❖ An all around lovely and clean-cut website for all of your recipe desires.
+                                Find collections based on meals, in addition to snack beverages and more.
                              </p>
                         </div>
                         <div className="work__project__bottom">
-                            <Chip label="React" className="cmn"/>
+                            <Chip label="React" className="cmn" />
                             <Chip label="Bootstrap" />
                             <Chip label="HTML5" />
                             <Chip label="CSS3" />
                             <a href="https://github.com/mozumderTushar/my-awesome-food.git" className="link2">
-                                <GitHubIcon className="commonIcons"></GitHubIcon>
+                                <FaGithub style={{ height: '32px' }} className="commonIcons"></FaGithub>
                             </a>
                             <a href="https://cocky-noyce-d73451.netlify.app/" className="link2">
-                                <VisibilityIcon className="commonIcons"></VisibilityIcon>
+                                <FaExternalLinkSquareAlt style={{ height: '32px' }} className="commonIcons"></FaExternalLinkSquareAlt>
                             </a>
                         </div>
                     </div>
@@ -213,16 +219,16 @@ const Projects = () => {
                             <Chip label="CSS3" />
                             <Chip label="API" />
                             <a href="https://github.com/mozumderTushar/hard-rock.git" className="link2">
-                                <GitHubIcon className="commonIcons"></GitHubIcon>
+                                <FaGithub style={{ height: '32px' }} className="commonIcons"></FaGithub>
                             </a>
                             <a href="https://mozumdertushar.github.io/hard-rock/" className="link2">
-                                <VisibilityIcon className="commonIcons"></VisibilityIcon>
+                                <FaExternalLinkSquareAlt style={{ height: '32px' }} className="commonIcons"></FaExternalLinkSquareAlt>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                
+
             </div>
         </div>
     );
