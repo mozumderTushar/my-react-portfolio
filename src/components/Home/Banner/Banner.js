@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Banner.css'
-import myResume from "../../../../src/resume/Resume_of_Tushar.pdf"
+import myResume from "../../../../src/resume/Resume_Of_Mayen_Uddin.pdf"
 import Typical from 'react-typical'
 import {
   FaFacebookF,

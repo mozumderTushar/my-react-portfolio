@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Nav from '../Home/Nav/Nav';
-import myResume from "../../../src/resume/Resume_of_Tushar.pdf"
+import myResume from "../../../src/resume/Resume_Of_Mayen_Uddin.pdf"
 import { Link } from 'react-router-dom';
 import { FaDownload } from 'react-icons/fa';
 import Aos from 'aos'
