@@ -136,6 +136,43 @@ const Projects = () => {
                 </div>
 
                 {/* fourth project */}
+                <div className="work__project mb-5" data-aos="fade-up">
+                    <div>
+                        <a href="https://appartment-hunt1.web.app/" className="link">
+                            <img src='https://i.ibb.co/gjTXz7s/Home-page.png' className="img-fluid" alt="" />
+                        </a>
+                    </div>
+                    <div >
+                        <h5>Featured Project</h5>
+                        <h2 style={{ color: "rgb(255, 90, 95)" }}>Apartment Hunt</h2>
+                        <div>
+                            <p>
+                                ❖ User can select view details button in any of the apartments shown below.Then, user will be routed to details page where they will be given with a form.
+                                In the form, they can request booking.If the user is not logged in, they’ll be routed to the login page.
+                                After logging in, they can request booking and then go to my rent tab in the dashboard.They can view their rents over there.
+                                There is an admin panel too, where in booking list tab, admin can see how many users have logged in.
+                                In admin panel, add rent house tab, admin can add any new apartments and will appear in the UI.
+                             </p>
+                        </div>
+                        <div className="work__project__bottom">
+                            <Chip label="React" />
+                            <Chip label="Bootstrap" />
+                            <Chip label="Firebase" />
+                            <Chip label="MongoDB" />
+
+                            <a href="https://github.com/mozumderTushar/appartment-hunt-client1-final.git" className="link2">
+                                <FaGithub style={{ height: '32px' }} className="commonIcons"></FaGithub>
+                            </a>
+
+                            <a href="https://appartment-hunt1.web.app/" className="link2">
+                                <FaExternalLinkSquareAlt style={{ height: '32px' }} className="commonIcons"></FaExternalLinkSquareAlt>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                {/* five project */}
                 <div className="work__project">
                     <div data-aos="zoom-in">
                         <a href="https://travel-guru-c1cf9.web.app/" className="link">
@@ -167,7 +204,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                {/* fifth project */}
+                {/* six project */}
                 <div className="work__project mb-5" data-aos="fade-up">
                     <div>
                         <a href="https://cocky-noyce-d73451.netlify.app/" className="link">
@@ -198,7 +235,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                {/* sixth project */}
+                {/* seven project */}
                 <div className="work__project mb-5" data-aos="fade-up">
                     <div>
                         <a href="https://mozumdertushar.github.io/hard-rock/" className="link">
@@ -229,6 +266,35 @@ const Projects = () => {
                 </div>
 
 
+
+                {/* eight project */}
+                <div className="work__project mb-5" data-aos="fade-up">
+                    <div>
+                        <a href="https://athena-design-9250.netlify.app/" className="link">
+                            <img src='https://i.ibb.co/4ZV2nqw/Web.png' className="img-fluid" alt="" />
+                        </a>
+                    </div>
+                    <div >
+                        <h5>Featured Project</h5>
+                        <h2 style={{ color: "rgb(255, 90, 95)" }}>Athena Design</h2>
+                        <div>
+                            <p>
+                                ❖ A Single Page Responsive Web Page With Attractive And Simple Design.
+                             </p>
+                        </div>
+                        <div className="work__project__bottom">
+                            <Chip label="HTML5" />
+                            <Chip label="CSS3" />
+                            <Chip label="Bootstrap" />
+                            <a href="https://github.com/samia07farid/athena-design" className="link2">
+                                <FaGithub style={{ height: '32px' }} className="commonIcons"></FaGithub>
+                            </a>
+                            <a href="https://athena-design-9250.netlify.app/" className="link2">
+                                <FaExternalLinkSquareAlt style={{ height: '32px' }} className="commonIcons"></FaExternalLinkSquareAlt>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

@@ -9,6 +9,10 @@ import {
   FaHamburger,
   FaGithub,
   FaExternalLinkSquareAlt,
+  FaHome,
+  FaAmazon,
+  FaAccessibleIcon,
+  FaAirbnb,
 } from "react-icons/fa";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -81,6 +85,24 @@ const Services = () => {
       liveLink:"https://cocky-noyce-d73451.netlify.app/", 
       text:
         "A Food Delivery Website, Where Users Can Pick There Favorite Food And Order The Food",
+    },
+    {
+      id: 7,
+      icon: <FaHome className="commonIcons" />,
+      heading: "APARTMENT HUNT",
+      githubLink:"https://github.com/mozumderTushar/appartment-hunt-client1-final.git", 
+      liveLink:"https://appartment-hunt1.web.app/", 
+      text:
+        "A Apartment Hunt Website, Where Users Can Pick There Apartment And Book Them.",
+    },
+    {
+      id: 8,
+      icon: <FaAirbnb className="commonIcons" />,
+      heading: "ATHENA DESIGN",
+      githubLink:"https://github.com/mozumderTushar/athena-design.git", 
+      liveLink:"https://athena-design-9250.netlify.app/", 
+      text:
+        "A Single Page Responsive Web Page With Attractive And Simple Design",
     },
   ]);
   return (
