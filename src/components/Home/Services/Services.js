@@ -13,6 +13,8 @@ import {
   FaAmazon,
   FaAccessibleIcon,
   FaAirbnb,
+  FaStore,
+  FaSourcetree,
 } from "react-icons/fa";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -34,6 +36,15 @@ const Services = () => {
   const [state] = useState([
     {
       id: 1,
+      icon: <FaSourcetree className="commonIcons" />,
+      heading: "MENTEX",
+      githubLink:"https://github.com/mozumderTushar/mentex.git",
+      liveLink:"https://mentex-5b2ed.web.app/",
+      text:
+        "A Social Platform For Mentally Disturbed People.",
+    },
+    {
+      id: 2,
       icon: <FaCreativeCommonsSampling className="commonIcons" />,
       heading: "CREATIVE AGENCY",
       githubLink:"https://github.com/mozumderTushar/creative-agency-client.git",
@@ -42,7 +53,7 @@ const Services = () => {
         "A Service Selling Website, Where Users Can Get Their Required Services.",
     },
     {
-      id: 2,
+      id: 3,
       icon: <FaHospital className="commonIcons" />,
       heading: "DOCTORS PORTAL",
       githubLink:"https://github.com/mozumderTushar/doctors-portal-v.1-client-master.git",
@@ -51,7 +62,7 @@ const Services = () => {
         "A Service Giving Website, Where Patients Can Pick The Date And Time And Fix Appointments.",
     },
     {
-      id: 3,
+      id: 4,
       icon: <FaCircleNotch className="commonIcons" />,
       heading: "VOLUNTEER NETWORK",
       githubLink:"https://github.com/mozumderTushar/volunteer-network-client.git",
@@ -60,7 +71,7 @@ const Services = () => {
         "A Social Servicing Website With Dashboard And Multiple Options Of Volunteer Event.",
     },
     {
-      id: 4,
+      id: 5,
       icon: <FaTrain className="commonIcons" />,
       heading: "TRAVEL GURU",
       githubLink:"https://github.com/mozumderTushar/travel-guru.git", 
@@ -69,7 +80,7 @@ const Services = () => {
         "A Traveling Website With Multiple Options Of Tourist Places. Users Can Easily Find Their Favorite Places & Hotels.",
     },
     {
-      id: 5,
+      id: 6,
       icon: <FaFileAudio className="commonIcons" />,
       heading: "HARD ROCK",
       githubLink:"https://github.com/mozumderTushar/hard-rock.git",
@@ -78,7 +89,7 @@ const Services = () => {
         "Hard Rock Boasts An Extensive Library Of Song Lyrics Presented In A Clean And Crisply Designed Website.",
     },
     {
-      id: 6,
+      id: 7,
       icon: <FaHamburger className="commonIcons" />,
       heading: "AWESOME FOOD",
       githubLink:"https://github.com/mozumderTushar/my-awesome-food.git", 
@@ -87,7 +98,7 @@ const Services = () => {
         "A Food Delivery Website, Where Users Can Pick There Favorite Food And Order The Food",
     },
     {
-      id: 7,
+      id: 8,
       icon: <FaHome className="commonIcons" />,
       heading: "APARTMENT HUNT",
       githubLink:"https://github.com/mozumderTushar/appartment-hunt-client1-final.git", 
@@ -96,7 +107,7 @@ const Services = () => {
         "A Apartment Hunt Website, Where Users Can Pick There Apartment And Book Them.",
     },
     {
-      id: 8,
+      id: 9,
       icon: <FaAirbnb className="commonIcons" />,
       heading: "ATHENA DESIGN",
       githubLink:"https://github.com/mozumderTushar/athena-design.git", 
